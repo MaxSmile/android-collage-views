@@ -15,13 +15,13 @@ public class HomeActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
 
-        findViewById(R.id.collageBgView).setOnTouchListener(new OnTouchListener() {
-
-            @Override
-            public boolean onTouch(View view, MotionEvent event) {
-                return true;
-            }
-        });
+//        findViewById(R.id.collageBgView).setOnTouchListener(new OnTouchListener() {
+//
+//            @Override
+//            public boolean onTouch(View view, MotionEvent event) {
+//                return true;
+//            }
+//        });
 
         findViewById(R.id.collageView1).setOnTouchListener(new MultiTouchListener());
         findViewById(R.id.collageView2).setOnTouchListener(new MultiTouchListener());
